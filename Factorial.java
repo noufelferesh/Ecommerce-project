@@ -8,7 +8,7 @@ int number;
 System.out.println("Enter the number");
 Scanner s=new Scaner(System.in)
 number=s.nextInt();
-for(i=number,i>number,i++)
+for(i=number,i>=number,i++)
 {
 fact=fact*i;
 }
